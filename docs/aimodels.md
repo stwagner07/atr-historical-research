@@ -2,8 +2,6 @@
 
 ## Commonly used OCR software
 
-# OCR Tools Comparison
-
 | OCR Tool              | Core Features | Multilingual Support | Handling of Noisy / Historical Texts | Best Use Case | Access Link |
 |----------------------|---------------|----------------------|-------------------------------------|--------------|-------------|
 | **Tesseract OCR (Open-Source)** | Uses LSTMs for text recognition; supports training custom models. | Supports many languages but struggles with non-Latin scripts and historical fonts. | Performs poorly on noisy, low-quality, or historical scans. | Free OCR solution, best for clean digital scans. | [Tesseract](https://github.com/tesseract-ocr/tesseract) |
