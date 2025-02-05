@@ -26,4 +26,18 @@ Author:    Silber, Mendel, 1882-
 Publisher: St. Louis, Moineśṭer Printing Ko. 1928
 
 Extract generated on 2025-01-20 09:12 GMT
+
+## Sample 3 "Aegyptiaca"
+
+Full title: Aegyptiaca / studio et sumptibus edita Pauli de Lagarde
+
+Publisher: Gottingae: A. Hoyer, 1883.
+
+[link to the book on HathiTrust](https://hdl.handle.net/2027/hvd.32044016913402)
+
+Original from: Harvard University
+Digitized by:  Google
+
+Generated on 2025-01-20 09:09 GMT
+
 
