@@ -3,10 +3,15 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
+  - cv2
   - numpy
+  - openai
+  - os
+  - PIL
   - psutil
   - toolz
   - matplotlib
+  - subprocess
   - dill
   - pandas
   - partd
