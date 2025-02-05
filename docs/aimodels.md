@@ -2,15 +2,19 @@
 
 ## Commonly used OCR software
 
-| **AI Model**            | **Pros**                                                                 | **Cons**                                                        |
-|-------------------------|-------------------------------------------------------------------------|-----------------------------------------------------------------|
-| **OpenAI GPT (e.g., GPT-4)** | Often used for post-processing tasks like spelling correction and named entity recognition (NER).  <br> - Supports multiple languages. | - Not specialized in OCR tasks.  <br> - Usage can be costly. |
-| **Tesseract OCR + LSTM** | Open-source and widely accessible.  <br> - Supports numerous languages.  <br> - Customizable for historical texts. | - May struggle with handwritten or degraded documents. |
-| **Transkribus (HTR)**    | Tailored for historical and handwritten documents.  <br> - Offers high accuracy with custom-trained models. | - Requires substantial training data.  <br> - Not entirely free to use. |
-| **Kraken OCR**          | Flexible and customizable for various scripts, including historical ones.  <br> - Supports right-to-left scripts. | - Needs training for optimal performance. |
-| **Google Vision OCR**    | Fast processing.  <br> - Handles multiple languages and complex layouts. | - Not specifically optimized for historical texts. |
-| **Azure AI Vision OCR**  | Integrates advanced AI capabilities.  <br> - Scalable for large projects. | - Cloud-based services can incur significant costs. |
-| **Amazon Textract**      | Capable of processing (modern) handwritten text.  <br> - Effective with complex document layouts. | - Limited specialization in historical documents. |
+# OCR Tools Comparison
+
+| OCR Tool              | Core Features | Multilingual Support | Handling of Noisy / Historical Texts | Best Use Case | Access Link |
+|----------------------|---------------|----------------------|-------------------------------------|--------------|-------------|
+| **Tesseract OCR (Open-Source)** | Uses LSTMs for text recognition; supports training custom models. | Supports many languages but struggles with non-Latin scripts and historical fonts. | Performs poorly on noisy, low-quality, or historical scans. | Free OCR solution, best for clean digital scans. | [Tesseract](https://github.com/tesseract-ocr/tesseract) |
+| **Google Document AI** | Cloud-based OCR with advanced AI-powered text extraction. | Strong multilingual support for modern languages, especially for Latin, Cyrillic, and Arabic scripts. | Good performer in benchmarks (English and Arabic), particularly on noisy documents. | Academic research, structured documents, complex layouts. | [Google Document AI](https://cloud.google.com/document-ai) |
+| **Amazon Textract** | Cloud-based OCR, integrated with AWS; handles forms and tables. | Good multilingual support, but struggles with Arabic and right-to-left scripts. | Better than Tesseract, but not as strong as Google Document AI on low-quality scans. | Business automation, extracting structured text from forms. | [Amazon Textract](https://aws.amazon.com/textract/) |
+| **ABBYY FineReader** | Proprietary OCR tool with strong historical document processing. | Excellent support for European languages and some Asian scripts. | One of the best commercial OCR tools for degraded texts. | Humanities research, digitizing archives. | [ABBYY FineReader](https://www.abbyy.com/finereader/) |
+| **Transkribus** | Models available for OCR and HTR. | Supports historical scripts and handwritten texts (17th–19th century). | ✅ Excellent for noisy, historical handwritten texts, but requires training. | Archives, historical manuscript processing. | [Transkribus](https://readcoop.eu/transkribus/) |
+| **e-scriptorium** | Open-source, focuses on custom HTR models. | Good support for non-Latin manuscripts (e.g., Arabic, Hebrew). | Highly customisable, but challenging installation and requires good personal hardware or cloud environment. | Humanities research, specific non-Latin OCR. | LINK |
+| **OCR4all** | Open-source and focus on humanities applications. | Supports multiple languages but layout recognition can be challenging. | Needs training and the user community is considerably smaller than with Transkribus. | Best run in a cloud environment and challenging to set up. | LINK |
+| **Kraken OCR** | Open-source, focuses on custom OCR models. | Good support for historical and some non-Latin scripts. | Highly customisable, but requires training datasets for optimal performance. | Humanities research, including non-Latin OCR. | [Kraken OCR](https://kraken.re/) |
+| **Microsoft Azure OCR** | AI-powered OCR with table and form detection. | Supports multiple languages but lacks customisation for historical documents. | Performs well on modern, clean text but struggles with historical/degraded materials. | Business and cloud-based document processing. | [Azure OCR](https://azure.microsoft.com/en-us/products/ai-services/azure-ai-vision/) |
 | **Meta's Nougat**        | Designed to transcribe (scientific) texts published in PDF format into Markdown format.  <br> - Utilizes Visual Transformer models for accurate text and formula recognition. | - Primarily focused on scientific documents.  <br> - May require adaptation for historical texts. |
 
 ## AI-powered OCR tools
