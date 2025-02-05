@@ -2,7 +2,7 @@
 
 ## Purpose of the repository
 
-This repository coveres different aspects of Automated Text Recognition (ATR) in Historical Research from post-processing scans of historical documents to OCR/HWR technology and improving text recognition with AI. Apart from code samples, the repository will also include short instructions and sample workflows, all with a special focus on historical documents.
+This repository covers different aspects of Automated Text Recognition (ATR) in Historical Research from post-processing scans of historical documents to OCR/HWR technology and improving text recognition with AI. Apart from code samples, the repository will also include short instructions and sample workflows, all with a special focus on historical documents.
 
 ## Workshops / collaborations
 
