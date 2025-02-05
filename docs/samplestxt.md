@@ -5,7 +5,7 @@ For testing purposes, we are providing sample pages from several historical sour
 ## Sample 1 "Deutsche Kolonial-Zeitung"
 
 - [link to the book on HathiTrust](https://hdl.handle.net/2027/coo.31924011810532)
-- [link to the sample page on Github](../sample_data_txt/DeutscheKolonialZeitung.txt)
+- [link to the sample page on Github](https://github.com/MonikaBarget/atr-historical-research/blob/main/sample_data_txt/DeutscheKolonialZeitung.txt)
 
 Original from: Cornell University
 Digitized by:  Google
@@ -20,7 +20,7 @@ Full title: Ameriḳa be-sifrut Yiśraʼel, yakhil mamarim ha-nimtsaʼim
 	   ʻad ḳodem ha-galutah ʻal yede Ḳolumbuṣ
 
 - [link to the book on HathiTrust](https://hdl.handle.net/2027/coo.31924026855175)
-- [link to the sample page on Github](../sample_data_txt/AmerikaBesifrutYisrael.txt)
+- [link to the sample page on Github](https://github.com/MonikaBarget/atr-historical-research/blob/main/sample_data_txt/AmerikaBesifrutYisrael.txt)
     
 Author:    Silber, Mendel, 1882-
 Publisher: St. Louis, Moineśṭer Printing Ko. 1928
@@ -34,7 +34,7 @@ Full title: Aegyptiaca / studio et sumptibus edita Pauli de Lagarde
 Publisher: Gottingae: A. Hoyer, 1883.
 
 - [link to the book on HathiTrust](https://hdl.handle.net/2027/hvd.32044016913402)
-- [link to the sample page on Github](../sample_data_txt/Aegyptiaca.txt)
+- [link to the sample page on Github](https://github.com/MonikaBarget/atr-historical-research/blob/main/sample_data_txt/Aegyptiaca.txt)
 
 Original from: Harvard University
 Digitized by:  Google
@@ -48,7 +48,7 @@ Author:    Pelham, Henry F. (Henry Francis) , 1846-1907.
 Publisher: London: H. Frowde, 1890.
 
 - [link to the book on HathiTrust](https://hdl.handle.net/2027/hvd.32044080865439)
-- [link to the sample page on Github](../sample_data_txt/ImperialDomains.txt)
+- [link to the sample page on Github](https://github.com/MonikaBarget/atr-historical-research/blob/main/sample_data_txt/ImperialDomains.txt)
 
 Extract generated on 2025-01-20 09:00 GMT
 
@@ -58,7 +58,7 @@ Author:    Harmus al-Ḥakīm.
 Publisher: [Leipzig]: [s.n.], 1870.
 
 - [link to the book on HathiTrust](https://hdl.handle.net/2027/hvd.hnc88z)
-- [link to the sample page on Github](../sample_data_txt/RisalahYukhatibu.txt)
+- [link to the sample page on Github](https://github.com/MonikaBarget/atr-historical-research/blob/main/sample_data_txt/RisalahYukhatibu.txt)
  
 Original from: Harvard University
 
@@ -71,7 +71,7 @@ Author:    Maldonado Macanaz, Joaquín, 1833-1901.
 Publisher: Madrid, Impr. de M. Tello, 1875.
 
 - [link to the book on HathiTrust](https://hdl.handle.net/2027/hvd.hwe5tu)
-- [link to the sample page on Github](../sample_data_txt/PrincipiosGenerales.txt)
+- [link to the sample page on Github](https://github.com/MonikaBarget/atr-historical-research/blob/main/sample_data_txt/PrincipiosGenerales.txt)
 
 Original from: Harvard University
 
