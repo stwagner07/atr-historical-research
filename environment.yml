@@ -3,17 +3,17 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - cv2
   - numpy
-  - openai
-  - os
-  - PIL
+  - opencv
+  - pillow
   - psutil
   - toolz
   - matplotlib
-  - subprocess
   - dill
   - pandas
   - partd
   - bokeh
   - dask
+  - pip
+  - pip:
+      - openai
