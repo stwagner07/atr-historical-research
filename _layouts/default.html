@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+    <nav>
+        <ul>
+            <li><a href="{{ "/" | relative_url }}">Home</a></li>
+            <li><a href="{{ "/about" | relative_url }}">About</a></li>
+            <li><a href="{{ "/docs/intro" | relative_url }}">Introduction</a></li>
+            <li><a href="{{ "/docs/preprocessing" | relative_url }}">Preprocessing</a></li>
+            <li><a href="{{ "/docs/layoutrecognition" | relative_url }}">Layout Recognition</a></li>
+            <li><a href="{{ "/docs/postprocessing" | relative_url }}">Postprocessing</a></li>
+            <li><a href="{{ "/docs/codingenvironments" | relative_url }}">Coding Environments</a></li>
+            <li><a href="{{ "/docs/samplesjpg" | relative_url }}">Samples (JPG)</a></li>
+            <li><a href="{{ "/docs/samplestxt" | relative_url }}">Samples (TXT)</a></li>
+            <li><a href="{{ "/docs/userdata" | relative_url }}">User Data</a></li>
+        </ul>
+    </nav>
+</aside>
+
+        <main class="content">
+            {{ content }}
+        </main>
+    </div>
+</body>
+</html>
