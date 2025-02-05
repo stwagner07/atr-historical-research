@@ -1,1 +1,4 @@
 openai
+cv2
+PIL
+subprocess
