@@ -37,8 +37,9 @@ If **BinderHub** is not available, you can run the notebooks using **Google Cola
 - To launch Google Colab from GitHub, first fork the repository and add your own data to the relevant folders. Then open the **colab-notebooks** folder in your forked repository.
 - Click on the notebook (`.ipynb` file) you want to run.
 - Click the **Open in Colab** button at the top of the file, or **manually open it** using the following link:
-
-**https://colab.research.google.com/github/YOUR-GITHUB-USERNAME/REPO-NAME/blob/main/notebooks/YOUR_NOTEBOOK.ipynb**
+```
+https://colab.research.google.com/github/YOUR-GITHUB-USERNAME/REPO-NAME/blob/main/notebooks/YOUR_NOTEBOOK.ipynb
+ ```
 
 - Replace `YOUR-GITHUB-USERNAME` with your GitHub username.
 - Replace `REPO-NAME` with the repository name.
