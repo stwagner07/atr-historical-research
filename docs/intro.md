@@ -1,3 +1,9 @@
+---
+layout: default
+title: Introduction
+permalink: /docs/intro
+---
+
 # Teaching machines how to read - challenges of OCR and HWR technology as bottlenecks in cultural heritage intepretation
 
 The Oxford Dictionary of Computer Science defines optical character recognition (OCR) as a “process in which a machine scans, recognizes, and encodes information printed or typed in alphanumerical characters.” OCR technology has significantly advanced since the first OCR devices recognized only a limited set of characters in machine-optimized fonts. Modern OCR software retrieves good results for printed material using the Latin alphabet in modern fonts. However, problems posed by historical and non-Latin characters, handwriting and complex layouts are areas of ongoing research. A lack of high-quality full text is still the bottleneck in many digital humanities and social sciences projects , especially those working in languages other than English.
