@@ -22,7 +22,7 @@
 | **Transkribus** | Makes use of AI for different analytical tasks and the preparation of digital editions |
 | **Azure AI Vision** | Provides computer vision capabilities, including text extraction from images |
 | **ABBYY FineReader** | Offers an AI-powered OCR SDK that enables software developers to integrate text recognition into their applications |
-| **Rossum** | Utilizes a proprietary AI engine to combine traditional OCR with AI for higher accuracy and scalability for enterprise applications |
+| **Rossum** | Cloud-native platform that uses proprietary AI engine to combine traditional OCR with AI for enterprise applications that require text processing and text generation |
 
 ## AI models used for OCR cleaning and analytical tasks (experimental)
 
@@ -47,10 +47,10 @@
 | **WormGPT** | AI model with capabilities in various domains. | Not designed for image processing. | Performance in OCR/NLP tasks is not well-documented. | [WormGPT](https://flowgpt.com/chat/wormgpt-6) |
 | **Poe** | Platform providing access to multiple AI chatbots. | Not designed for image processing. | Performance depends on the integrated models; generally effective in NLP tasks. | [Poe](https://poe.com/) |
 | **T5 (Google)** | Converts various NLP tasks into a text-to-text format, enabling unified text processing. | Not designed for image processing. | Versatile in NLP tasks like translation, summarization, and question answering. | [Google T5](https://ai.google/research/) |
-| **BERT (Google)** | Provides contextualized word embeddings by processing text bidirectionally. | Not designed for image processing. | Strong performance in tasks like sentiment analysis, text classification, and question answering. | [Google BERT](https://ai.google/research/) |
+| **BERT (Google)** | Provides contextualised word embeddings by processing text bi-directionally. | Not designed for image processing. | Strong performance in tasks like sentiment analysis, text classification, and question answering. | [Google BERT](https://ai.google/research/) |
 | **RoBERTa (Facebook)** | An optimized version of BERT with improved training methodology for better text understanding. | Not designed for image processing. | Outperforms BERT in various NLP benchmarks. | [Facebook RoBERTa](https://ai.facebook.com/) |
 | **ALBERT (Google)** | A lighter and faster version of BERT with parameter reduction techniques. | Not designed for image processing. | Maintains performance while being more efficient. | [Google ALBERT](https://ai.google/research/) |
-| **ELMo (AllenNLP)** | Generates contextualized word embeddings considering the entire sentence. | Not designed for image processing. | Effective in tasks like sentiment analysis and question answering. | [AllenNLP ELMo](https://allennlp.org/elmo) |
+| **ELMo (AllenNLP)** | Generates contextualised word embeddings considering the entire sentence. | Not designed for image processing. | Effective in tasks like sentiment analysis and question answering. | [AllenNLP ELMo](https://allennlp.org/elmo) |
 | **DeepSeek AI** | AI model for code generation and understanding. | Not designed for image processing. | Effective in programming-related NLP tasks; not suitable for OCR. | [DeepSeek AI](https://chat.deepseek.com/coder) |
 | **1min AI** | All-in-one AI app for text, writing, image, audio, and video. | Capable of processing images; suitable for multimodal applications. | Performance in OCR/NLP tasks is not well-documented. | [1min AI](https://app.1min.ai/chat-with-ai) |
 | **Cody** | AI assistant for code-related tasks. | Not designed for image processing. | Effective in programming-related NLP tasks; not suitable for OCR. | [Cody](https://sourcegraph.com/cody/chat) |
@@ -60,6 +60,6 @@
 
 ## Ethical challenges
 
-Working with AI raises questions of research integrity and ethics, especially when historical and multilingual sources are concerned. AI-powered OCR often performs better on widely used languages such as English and Spanish. In addition, AI-based spelling corrections trained on modern and more widespread language use may alter original meanings and ingest anachronisms in texts. AI would need to be trained on more diverse sources (including historical and regional texts) to perform better. At the moment, AI use still requires a high level of human monitoring. When publishing AI-enhanced text, scholars should flag where AI interventions (e.g. spelling corrections) have altered the original and what has been done to check the quality of the AI output. In many cases, direct AI text manipulation is not recommended. But AI can be used to develop controlled vocabularies or create lists of typical errors.
+Working with AI raises questions of research integrity and ethics, especially when historical and multilingual sources are concerned. AI-powered OCR often performs better for widely used languages such as English and Spanish. In addition, AI-based spelling corrections trained on modern and more widespread language use may alter original meanings and ingest anachronisms in texts. AI would need to be trained on more diverse sources (including historical and regional texts) to perform better. At the moment, AI use still requires a high level of human monitoring. When publishing AI-enhanced text, scholars should flag where AI interventions (e.g. spelling corrections) have altered the original and what has been done to check the quality of the AI output. In many cases, direct AI text manipulation is not recommended. But AI can be used to develop controlled vocabularies or create lists of typical errors.
 
 
