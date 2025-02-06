@@ -36,6 +36,8 @@ Several academic, private, and commercial blogs also discuss the use of OpenCV b
 - [Alexander Obregon: How to Process Images with Python Using OpenCV](https://medium.com/@AlexanderObregon/how-to-process-images-with-python-using-opencv-6894010d78e4)
 - [Richmond Alake: OpenCV Tutorial: Unlock the Power of Visual Data Processing](https://www.datacamp.com/tutorial/opencv-tutorial)
 
-More general image processing advice is also given here:
+More general image processing advice is also given in Mageshwaran R.'s [Survey on Image Preprocessing Techniques to Improve OCR Accuracy](https://medium.com/technovators/survey-on-image-preprocessing-techniques-to-improve-ocr-accuracy-616ddb931b76) and in other publications collected in the [pre-OCR image processing folder](https://www.zotero.org/groups/5646174/atr_history/collections/4W36A6A4) of our Zotero group library.
 
-[Survey on Image Preprocessing Techniques to Improve OCR Accuracy](https://medium.com/technovators/survey-on-image-preprocessing-techniques-to-improve-ocr-accuracy-616ddb931b76)
+## Could (Gen)AI help in making an informed decision?
+
+Rather than letting (Gen)AI decide on a suitable workflow based on sample images, it might be a more efficient approach to describe problematic aspects of the scanned sources first and then ask an AI chatbot to suggest the best approaches for each of them. This may reveal that not all images collected for a project can be processed in the same way and that images may have to be processed in batches. Grouping the images should then depend on visual aspects and not on their content. Projects with very diverse sources will most likely not be able to work with a one-fits-all image manipulation algorithm. 
