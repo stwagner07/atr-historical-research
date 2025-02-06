@@ -34,6 +34,7 @@ Several academic, private, and commercial blogs also discuss the use of OpenCV b
 - [NextGenINVENT: 7 steps of image pre-processing to improve OCR using Python](https://nextgeninvent.com/blogs/7-steps-of-image-pre-processing-to-improve-ocr-using-python-2/)
 - [Geeks for Geeks: OpenCV Tutorial in Python](https://www.geeksforgeeks.org/opencv-python-tutorial/)
 - [Alexander Obregon: How to Process Images with Python Using OpenCV](https://medium.com/@AlexanderObregon/how-to-process-images-with-python-using-opencv-6894010d78e4)
+- [Richmond Alake: OpenCV Tutorial: Unlock the Power of Visual Data Processing](https://www.datacamp.com/tutorial/opencv-tutorial)
 
 More general image processing advice is also given here:
 
