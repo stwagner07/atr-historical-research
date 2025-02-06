@@ -22,7 +22,11 @@ To test the performance differences between API access and GUI access, here are 
 - [GPT4All installation guide for different operating systems](https://gpt4all.io/index.html)
 - [Hugging Face AI platform with access to different models](https://huggingface.co/spaces)
 - [Mistral-7B Online Demo](https://huggingface.co/spaces/mistralai/Mistral-7B-Instruct)
-- [LLaMA 2 (Meta AI)](https://huggingface.co/spaces/facebook/llama-2-7b-chat)
+- [LLaMA 2 (Meta AI)](https://huggingface.co/meta-llama/Llama-2-7b-chat)
+
+Using the model via Hugging Face requires a hugging face account. The details are explained in the following Medium article:
+[Chat with Llama-2 (7B) from HuggingFace (Llama-2–7b-chat-hf)](https://medium.com/@nimritakoul01/chat-with-llama-2-7b-from-huggingface-llama-2-7b-chat-hf-d0f5735abfcf)
+
 - [Falcon-7B (TII UAE)](https://huggingface.co/spaces/tiiuae/falcon-7b-instruct)
 - [BLOOM (Multilingual AI)](https://huggingface.co/spaces/bigscience/bloom)
 - [ChatGPT (GPT-3.5 / GPT-4 / free & paid plans available)](https://chat.openai.com)
