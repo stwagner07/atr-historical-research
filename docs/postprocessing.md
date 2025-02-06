@@ -18,15 +18,14 @@ Another challenge is **computational speed**. Google Colab, for instance, [permi
 
 ## Comparisons between API and GUI access
 
-To test the performance differences between API access and GUI access, here are links to the official web interfaces, online demos or installers of some popular AI tools:
-
-[GPT4All installation guide for different operating systems](https://gpt4all.io/index.html)
-[Hugging Face AI platform with access to different models](https://huggingface.co/spaces)
-[Mistral-7B Online Demo](https://huggingface.co/spaces/mistralai/Mistral-7B-Instruct)
-[LLaMA 2 (Meta AI)](https://huggingface.co/spaces/facebook/llama-2-7b-chat)
-[Falcon-7B (TII UAE)](https://huggingface.co/spaces/tiiuae/falcon-7b-instruct)
-[BLOOM (Multilingual AI)](https://huggingface.co/spaces/bigscience/bloom)
-[ChatGPT (GPT-3.5 / GPT-4 / free & paid plans available)](https://chat.openai.com)
-[Claude (Anthropic AI, free with Pro option)](https://claude.ai)
-[Google Gemini (Bard, Free & Pro)](https://gemini.google.com)
-[Perplexity AI (research-focused LLM)](https://www.perplexity.ai)
+To test the performance differences between API access and GUI access, here are links to the official web interfaces, online demos, or installers of some popular AI tools:
+- [GPT4All installation guide for different operating systems](https://gpt4all.io/index.html)
+- [Hugging Face AI platform with access to different models](https://huggingface.co/spaces)
+- [Mistral-7B Online Demo](https://huggingface.co/spaces/mistralai/Mistral-7B-Instruct)
+- [LLaMA 2 (Meta AI)](https://huggingface.co/spaces/facebook/llama-2-7b-chat)
+- [Falcon-7B (TII UAE)](https://huggingface.co/spaces/tiiuae/falcon-7b-instruct)
+- [BLOOM (Multilingual AI)](https://huggingface.co/spaces/bigscience/bloom)
+- [ChatGPT (GPT-3.5 / GPT-4 / free & paid plans available)](https://chat.openai.com)
+- [Claude (Anthropic AI, free with Pro option)](https://claude.ai)
+- [Google Gemini (Bard, Free & Pro)](https://gemini.google.com)
+- [Perplexity AI (research-focused LLM)](https://www.perplexity.ai)
