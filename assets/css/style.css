@@ -48,6 +48,42 @@ body {
     margin-top: 10px;
 }
 
+/* Sidebar toggle button */
+.sidebar-toggle {
+    display: none;
+    background: #24292e;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+/* Sidebar content initially hidden on small screens */
+.sidebar-content {
+    display: block;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .sidebar-toggle {
+        display: block;
+    }
+
+    .sidebar-content {
+        display: none;
+        padding: 10px;
+        background: #f4f4f4;
+    }
+
+    .sidebar-open {
+        display: block;
+    }
+}
+
+
 
 .sidebar nav ul {
     list-style-type: none;
