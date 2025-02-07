@@ -8,22 +8,6 @@
 </head>
 <body>
     <div class="container">
-        <aside class="sidebar">
-    <nav>
-        <ul>
-            <li><a href="{{ "/" | relative_url }}">Home</a></li>
-            <li><a href="{{ "/docs/intro" | relative_url }}">Introduction</a></li>
-            <li><a href="{{ "/docs/aimodels" | relative_url }}">OCR Tools & AI Models</a></li>
-            <li><a href="{{ "/docs/preprocessing" | relative_url }}">Preprocessing</a></li>
-            <li><a href="{{ "/docs/layoutrecognition" | relative_url }}">Layout Recognition</a></li>
-            <li><a href="{{ "/docs/postprocessing" | relative_url }}">Postprocessing</a></li>
-            <li><a href="{{ "/docs/codingenvironments" | relative_url }}">Coding Environments</a></li>
-            <li><a href="{{ "/docs/samplesjpg" | relative_url }}">Samples (JPG)</a></li>
-            <li><a href="{{ "/docs/samplestxt" | relative_url }}">Samples (TXT)</a></li>
-            <li><a href="{{ "/docs/userdata" | relative_url }}">User Data</a></li>
-        </ul>
-    </nav>
-
     <div class="sidebar-footer">
     <a href="{{ site.github_repo }}" class="github-button" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-github"></i> View on GitHub
@@ -32,7 +16,26 @@
         {{ site.impressum }}
     </p>
     </div>
-</aside>
+    <button id="toggle-sidebar">☰ Menu</button>
+<div id="sidebar">
+  <nav>
+    <nav>
+        <ul>
+            <li><a href="{{ "/" | relative_url }}">Home</a></li>
+            <li><a href="{{ "/docs/intro" | relative_url }}">Introduction</a></li>
+            <li><a href="{{ "/docs/aimodels" | relative_url }}">OCR Tools & AI Models</a></li>
+             <li><a href="{{ "/docs/software" | relative_url }}">Useful Research Software</a></li>
+            <li><a href="{{ "/docs/layoutrecognition" | relative_url }}">Layout Recognition</a></li>
+            <li><a href="{{ "/docs/preprocessing" | relative_url }}">Preprocessing</a></li>
+            <li><a href="{{ "/docs/postprocessing" | relative_url }}">Postprocessing</a></li>
+            <li><a href="{{ "/docs/codingenvironments" | relative_url }}">Coding Environments</a></li>
+            <li><a href="{{ "/docs/samplesjpg" | relative_url }}">Samples (JPG)</a></li>
+            <li><a href="{{ "/docs/samplestxt" | relative_url }}">Samples (TXT)</a></li>
+            <li><a href="{{ "/docs/userdata" | relative_url }}">User Data</a></li>
+        </ul>
+    </nav>
+  </nav>
+</div>
 
         <main class="content">
             {{ content }}
