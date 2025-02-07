@@ -12,23 +12,23 @@ body {
 /* Sidebar Styling */
 .sidebar {
     width: 250px;
-    background: #2c3e50; /* Restore dark blue */
+    background: #2c3e50; /* Dark blue */
     color: white;
     padding: 20px;
     position: fixed;
     height: 100%;
-    left: -250px; /* Hidden by default */
+    left: 0;
     top: 0;
     overflow-y: auto;
-    transition: left 0.3s ease;
+    transition: transform 0.3s ease-in-out; /* Uses transform instead of left */
     display: flex;
-    flex-direction: column; /* Ensures content flows in a column */
-    justify-content: space-between; /* Space out content */
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-/* Open state */
-.sidebar.open {
-    left: 0;
+/* Fully Collapsed Sidebar */
+.sidebar.closed {
+    transform: translateX(-100%); /* Moves sidebar completely off-screen */
 }
 
 /* Sidebar Toggle Button */
@@ -51,10 +51,6 @@ body {
 }
 
 /* Sidebar Navigation */
-.sidebar nav {
-    flex-grow: 1; /* Allows nav to take up the available space */
-}
-
 .sidebar nav ul {
     list-style-type: none;
     padding: 0;
@@ -106,17 +102,23 @@ body {
 
 /* Main Content Styling */
 .content {
-    margin-left: 280px; /* Default space when sidebar is open */
     padding: 40px;
     flex-grow: 1;
     max-width: 900px;
     line-height: 1.6;
-    transition: margin-left 0.3s ease;
+    margin-left: 270px; /* Ensures a gap between the sidebar and text */
+    transition: margin-left 0.3s ease-in-out;
+}
+
+/* Adjust content when sidebar is closed */
+.sidebar.closed + .content {
+    margin-left: 40px; /* Extra padding when sidebar is collapsed */
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
     .content {
-        margin-left: 0; /* Content moves when sidebar is collapsed */
+        margin-left: 40px; /* Default margin when sidebar is hidden */
     }
 }
+
