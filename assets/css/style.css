@@ -11,16 +11,19 @@ body {
 
 /* Sidebar Styling */
 .sidebar {
-    width: 250px; /* Default width */
-    background: #2c3e50;
+    width: 250px;
+    background: #2c3e50; /* Restore dark blue */
     color: white;
     padding: 20px;
     position: fixed;
     height: 100%;
     left: -250px; /* Hidden by default */
     top: 0;
-    overflow-y: auto; /* Allow scrolling if needed */
+    overflow-y: auto;
     transition: left 0.3s ease;
+    display: flex;
+    flex-direction: column; /* Ensures content flows in a column */
+    justify-content: space-between; /* Space out content */
 }
 
 /* Open state */
@@ -28,46 +31,30 @@ body {
     left: 0;
 }
 
-.sidebar-footer {
-    margin-top: 20px;
-    padding-top: 10px;
-    border-top: 1px solid #ccc;
-    text-align: center;
-}
-
-.github-button {
-    display: inline-block;
-    padding: 8px 12px;
-    background: #24292e;
-    color: #fff;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.github-button:hover {
-    background: #444;
-}
-
-.impressum {
-    font-size: 12px;
-    color: #666;
-    margin-top: 10px;
-}
-
 /* Sidebar Toggle Button */
 #toggle-sidebar {
     position: fixed;
     top: 10px;
     left: 10px;
-    background: #333;
+    background: #2c3e50;
     color: white;
     border: none;
-    padding: 10px;
+    padding: 10px 15px;
     cursor: pointer;
     z-index: 1000; /* Ensure it's above other elements */
+    border-radius: 5px;
+    font-size: 18px;
 }
 
-/* Sidebar content */
+#toggle-sidebar:hover {
+    background: #1a252f;
+}
+
+/* Sidebar Navigation */
+.sidebar nav {
+    flex-grow: 1; /* Allows nav to take up the available space */
+}
+
 .sidebar nav ul {
     list-style-type: none;
     padding: 0;
@@ -90,9 +77,36 @@ body {
     border-radius: 5px;
 }
 
+/* Sidebar Footer */
+.sidebar-footer {
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.github-button {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #24292e;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.github-button:hover {
+    background: #444;
+}
+
+.impressum {
+    font-size: 12px;
+    color: #bbb;
+    margin-top: 5px;
+}
+
 /* Main Content Styling */
 .content {
-    margin-left: 280px; /* Adjust for sidebar */
+    margin-left: 280px; /* Default space when sidebar is open */
     padding: 40px;
     flex-grow: 1;
     max-width: 900px;
