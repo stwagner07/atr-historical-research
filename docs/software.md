@@ -18,6 +18,11 @@ In our Bring Your Own Data Lab workshop in February 2025, we discussed that (hig
 - [Atlas.ti](https://atlasti.com/) (tool for qualitative data analysis, including options to create visualisations based on tags and free text)
 - [NVivo](https://lumivero.com/products/nvivo/) (qualiative research software)
 
+## Platforms for citizen science (e.g. OCR post-correction or volunteer transcriptions)
+
+- [Omeka](https://omeka.org/) (open-source web publishing platforms for sharing digital collections and creating media-rich online exhibits)
+- [Zooniverse](https://www.zooniverse.org/) ("platform for people-powered research")
+
 ## GDPR-compliant speech-to-text tools
 
 - [noScribe](https://github.com/kaixxx/noScribe) (uses OpenAIs Whisper for automated audio transcription) 
