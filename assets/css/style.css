@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -20,28 +21,28 @@ body {
     left: 0;
     top: 0;
     overflow-y: auto;
-    transition: transform 0.3s ease-in-out; /* Uses transform instead of left */
+    transition: transform 0.3s ease-in-out; /* Smooth hide effect */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-/* Fully Collapsed Sidebar */
+/* Sidebar Hidden */
 .sidebar.closed {
-    transform: translateX(-100%); /* Moves sidebar completely off-screen */
+    transform: translateX(-100%); /* Completely hides the sidebar */
 }
 
 /* Sidebar Toggle Button */
 #toggle-sidebar {
     position: fixed;
-    top: 10px;
-    left: 10px;
+    top: 15px;
+    left: 15px;
     background: #2c3e50;
     color: white;
     border: none;
     padding: 10px 15px;
     cursor: pointer;
-    z-index: 1000; /* Ensure it's above other elements */
+    z-index: 1100; /* Ensure button is always visible */
     border-radius: 5px;
     font-size: 18px;
 }
@@ -54,6 +55,7 @@ body {
 .sidebar nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 .sidebar nav ul li {
@@ -106,19 +108,18 @@ body {
     flex-grow: 1;
     max-width: 900px;
     line-height: 1.6;
-    margin-left: 270px; /* Ensures a gap between the sidebar and text */
+    margin-left: 270px; /* Adds spacing between sidebar and text */
     transition: margin-left 0.3s ease-in-out;
 }
 
-/* Adjust content when sidebar is closed */
+/* Adjust content when sidebar is hidden */
 .sidebar.closed + .content {
-    margin-left: 40px; /* Extra padding when sidebar is collapsed */
+    margin-left: 40px; /* Adds extra padding when sidebar is collapsed */
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
     .content {
-        margin-left: 40px; /* Default margin when sidebar is hidden */
+        margin-left: 40px; /* Adjust margin when sidebar is collapsed */
     }
 }
-
