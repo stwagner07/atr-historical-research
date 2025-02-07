@@ -6,7 +6,7 @@ In our Bring Your Own Data Lab workshop in February 2025, we discussed that (hig
 ## Tools for image manipulation
 
 - [GIMP](https://www.gimp.org/) (free and open source image editor)
-- [https://imagej.net/](open source software for processing and analysing scientific images)
+- [https://imagej.net/](https://imagej.net/) (open source software for processing and analysing scientific images)
 
 ## Scanning for mobile devices
 
